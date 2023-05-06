@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Registration Form</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      form {
+        border: 1px solid #ccc;
+        width: 500px;
+        padding: 40px;
+        border-radius: 5px;
+        margin: 0 auto;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type=text], input[type=password], input[type=email] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      button[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button[type=submit]:hover {
+        background-color: #45a049;
+      }
+      img
+      {
+        height: 60px;
+        width: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <center><img src="logo.png"></center>
+      <center><h2>Login to Thomascook</h2></center>
+      
+      <label for="Firstname">First Name:</label>
+      <input type="text" placeholder="Firstname" name="username" required>
+      <label for="Lastname">Last Name:</label>
+      <input type="text" placeholder="Lastname" name="username" required>
+      <label for="Lastname">Mobile Number:</label>
+      <input type="Text" placeholder="*********" name="username" required>
+      <label for="email">Email:</label>
+      <input type="email" placeholder="E-mail" name="email" required>
+      <label for="password">Password:</label>
+      <input type="password" placeholder="Password" name="password" required>
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" placeholder="Confirm-password" name="confirm-password" required>
+      <center><button type="submit">Register</button></center>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+            body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+footer {
+  background-color: #027AAE;
+  color: white;
+  bottom: 0;
+  width: 100vw;
+  font-size: 16px;
+}
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 3fr 2fr 4fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #c7940a;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: #bac6d9;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color:yellow;
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+  text-decoration: none;
+}
+.footer-menu a:hover, .social i:hover{
+  color: #c7940a;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer-menu
+{
+    margin-bottom: 15px;
+}
+
+        </style>
+    </head>
+    <body>
+        <footer>
+            <div class="row primary">
+                <div class="column about">
+                  <h3>Connect</h3>
+                  <p>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Sienna Towers, Service Road, Bangalore
+                  </p>
+                  <div class="social">
+                    <i class="fa fa-facebook-square"></i>
+                    <i class="fa fa-twitter-square"></i>
+                    <i class="fa fa-linkedin-square"></i>
+                    <i class="fa fa-instagram"></i>
+                  </div>
+                </div>
+              
+                <div class="column link">
+                  <h3>Links</h3>
+                  <ul>
+                    <li><a href="file:///D:/HTML/Thomas%20Cook%20Website.html#">Holidays</a></li>
+                    <li><a href="#Cruise">Cruise</a></li>
+                    <li><a href="#Shortbreak">Shortbreak</a></li>
+                    <li><a href="#Hotel">Hotel</a></li>
+                    <li><a href="#Visa">Visa</a></li>
+                    <li><a href="#Flight">Flight</a></li>
+                  </ul>
+                </div>
+              
+                <div class="column subscribe">
+                  <h3>Newsletter</h3>
+                  <div>
+                    <input type="email" placeholder="Your email id here" />
+                    <button>Subscribe</button>
+                  </div>
+                </div>
+              </div>
+              
+              
+                <div class="footer-menu">
+              
+                
+                <a href="">F.A.Q</a>
+                <a href="">Cookies Policy</a>
+                <a href="">Terms Of Service</a>
+                <a href="">Support</a>
+              
+                </div>
+                </div>
+              
+        </footer>        
+        
+    </body>
+</html>
